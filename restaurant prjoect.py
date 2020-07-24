@@ -6,7 +6,7 @@ import time
 
 rest = Tk()
 rest.geometry("1600x800+0+0")
-rest.title("Restaurant Management System ")
+rest.title("Restaurant Bill Calculator ")
 rest.configure(background = "gray26")
 
 text_input= StringVar()
