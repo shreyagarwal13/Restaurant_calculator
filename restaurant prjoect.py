@@ -25,7 +25,7 @@ f2.pack(side=RIGHT)
 localtime = time.asctime(time.localtime(time.time()))
 
 #=================TOP==============================================================================================================
-heading= Label(tops,font=("lucida console",40,'bold'),text="Restaurant Management System",
+heading= Label(tops,font=("lucida console",40,'bold'),text="Restaurant Bill Calculator",
                fg="dark turquoise", bd=10, anchor='w')
 heading.grid(row=0,column=0)
 heading= Label(tops,font=("lucida console",15,'bold'), text=localtime,
